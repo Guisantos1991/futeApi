@@ -1,0 +1,14 @@
+package com.guidev.futeapi.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class FootballApiResponse<T> {
+    private String get;
+    private List<LeagueWrapper> response;
+}
+
