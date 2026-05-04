@@ -21,6 +21,6 @@ public class LeagueServiceImpl implements LeagueService {
         List<League> leagues = new ArrayList<>();
         footballApiClient.getLeagues();
 
-        return null;
+        return leagues;
     }
 }
