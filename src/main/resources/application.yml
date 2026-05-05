@@ -13,3 +13,8 @@ spring:
 
 api:
   x-apisports-key: ${API_FOOTBALL_KEY}
+
+gemini:
+  api-key: ${GOOGLE_AI_KEY}
+  model: gemini-2.5-flash
+  base-url: https://generativelanguage.googleapis.com
