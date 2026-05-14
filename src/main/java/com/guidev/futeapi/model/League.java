@@ -23,5 +23,4 @@ public class League {
     private String type;
     private String logo;
 
-    
 }

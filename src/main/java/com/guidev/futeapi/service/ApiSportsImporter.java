@@ -4,6 +4,6 @@ import com.guidev.futeapi.dto.apisportsdto.FootballApiResponse;
 import org.springframework.stereotype.Service;
 
 @Service
-public interface LeagueService {
-    public FootballApiResponse getLeagues();
+public interface ApiSportsImporter {
+    public void importData(FootballApiResponse footballApiResponse);
 }

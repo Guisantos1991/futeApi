@@ -1,4 +1,4 @@
-package com.guidev.futeapi.dto;
+package com.guidev.futeapi.dto.apisportsdto;
 
 import com.guidev.futeapi.model.League;
 
